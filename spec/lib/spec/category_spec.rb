@@ -1,6 +1,8 @@
 # rspec stuff
 require 'rspec'
 
+RSpec.describe
+
 describe Category do
   it 'should should be a Category' do
     expect(subject).to be_a(Category)

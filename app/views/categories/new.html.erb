@@ -1,0 +1,11 @@
+<p>'Welcome!!'</p>
+
+<button>Movies</button>
+<button>New Movie</button>
+
+<!--form that will appear to add a new movie-->
+
+<%= simple_form_for @category do |f| %>
+  <%= f.error_notification %>
+  <%= f.input :category_type, :placeholder => 'Enter a Category!' %>
+<% end %>
